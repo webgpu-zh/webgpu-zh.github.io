@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as e,a as n}from"./app.4a2ec065.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"splice().md"}'),l={name:"splice().md"},p=n("",6),c=[p];function t(i,o,r,_,d,h){return e(),a("div",null,c)}const m=s(l,[["render",t]]);export{A as __pageData,m as default};

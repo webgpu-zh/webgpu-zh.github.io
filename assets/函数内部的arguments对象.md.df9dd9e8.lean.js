@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as e}from"./app.4a2ec065.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"函数内部的arguments对象.md"}'),t={name:"函数内部的arguments对象.md"},r=e("",5),p=[r];function l(o,c,i,_,u,m){return a(),n("div",null,p)}const A=s(t,[["render",l]]);export{g as __pageData,A as default};

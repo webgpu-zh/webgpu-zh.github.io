@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"新建数组.md"}'),l={name:"新建数组.md"},p=e("",13),o=[p];function t(c,r,i,A,C,d){return n(),a("div",null,o)}const h=s(l,[["render",t]]);export{_ as __pageData,h as default};

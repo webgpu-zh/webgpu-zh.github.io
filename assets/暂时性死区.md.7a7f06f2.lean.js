@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"暂时性死区.md"}'),l={name:"暂时性死区.md"},t=e("",8),p=[t];function o(c,i,r,d,_,C){return n(),s("div",null,p)}const u=a(l,[["render",o]]);export{h as __pageData,u as default};

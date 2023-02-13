@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.4a2ec065.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"箭头函数.md"}'),p={name:"箭头函数.md"},e=l("",12),t=[e];function o(c,i,r,C,A,d){return a(),n("div",null,t)}const y=s(p,[["render",o]]);export{u as __pageData,y as default};

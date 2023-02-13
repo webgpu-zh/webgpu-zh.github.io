@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a as l}from"./app.4a2ec065.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组的flat()方法.md"}'),e={name:"数组的flat()方法.md"},p=l("",8),t=[p];function o(r,c,i,C,d,A){return n(),s("div",null,t)}const g=a(e,[["render",o]]);export{y as __pageData,g as default};

@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"concat.md"}'),c={name:"concat.md"},o=e("",7),t=[o];function p(l,r,i,d,_,C){return n(),s("div",null,t)}const y=a(c,[["render",p]]);export{h as __pageData,y as default};

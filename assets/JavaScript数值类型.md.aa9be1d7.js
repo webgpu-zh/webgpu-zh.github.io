@@ -1,0 +1,4 @@
+import{_ as a,c as s,o as n,a as t}from"./app.4a2ec065.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"JavaScript数值类型.md"}'),e={name:"JavaScript数值类型.md"},p=t(`<p>使用如下方式新建数值类型的变量：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">let num = 1     // 整数</span></span>
+<span class="line"><span style="color:#A6ACCD;">let floatNum = 0.1   // 浮点数</span></span>
+<span class="line"><span style="color:#A6ACCD;">let num=1.0  // 虽然跟了小数点，但依然会被处理成整数</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>NaN是一种特殊的数值，表示运算错误，但不会报错。Infinity表示无穷大，-Infinity表示无穷小，例如：</p>`,3),o=[p];function c(l,i,_,r,d,m){return n(),s("div",null,o)}const A=a(e,[["render",c]]);export{u as __pageData,A as default};

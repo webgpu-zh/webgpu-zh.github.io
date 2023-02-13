@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as s,a as n}from"./app.4a2ec065.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组元素的默认值.md"}'),t={name:"数组元素的默认值.md"},o=n("",3),c=[o];function r(_,l,p,i,d,h){return s(),e("div",null,c)}const m=a(t,[["render",r]]);export{f as __pageData,m as default};

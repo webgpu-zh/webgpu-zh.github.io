@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组的join()方法.md"}'),o={name:"数组的join()方法.md"},t=e("",8),p=[t];function l(c,r,i,d,_,C){return n(),a("div",null,p)}const h=s(o,[["render",l]]);export{y as __pageData,h as default};

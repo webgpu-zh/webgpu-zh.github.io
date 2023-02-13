@@ -1,0 +1,4 @@
+import{_ as a,c as s,o as e,a as n}from"./app.4a2ec065.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组的长度.md"}'),t={name:"数组的长度.md"},o=n(`<h4 id="数组的长度" tabindex="-1">数组的长度 <a class="header-anchor" href="#数组的长度" aria-hidden="true">#</a></h4><p>数组的长度不是固定的，哪怕一开始指定数组的长度，其长度也是可以动态伸缩的。例如：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">const arr= new Array(3)</span></span>
+<span class="line"><span style="color:#A6ACCD;">arr[3] = 1</span></span>
+<span class="line"><span style="color:#A6ACCD;">console.log(arr) // 4</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div>`,3),r=[o];function c(l,p,_,i,d,h){return e(),s("div",null,r)}const m=a(t,[["render",c]]);export{C as __pageData,m as default};

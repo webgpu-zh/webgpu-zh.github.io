@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"字符串模板字面量.md"}'),l={name:"字符串模板字面量.md"},t=e("",5),p=[t];function o(c,r,i,_,C,d){return n(),a("div",null,p)}const y=s(l,[["render",o]]);export{h as __pageData,y as default};

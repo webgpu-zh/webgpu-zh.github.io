@@ -1,0 +1,9 @@
+import{_ as a,c as s,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"concat.md"}'),c={name:"concat.md"},o=e(`<h4 id="concat" tabindex="-1">concat() <a class="header-anchor" href="#concat" aria-hidden="true">#</a></h4><p>使用concat()方法可以合并数组，返回有原数组和实参组成的新数组：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">const arr1 = [1, 2, 3]</span></span>
+<span class="line"><span style="color:#A6ACCD;">const arr2 = [4, 5, 6]</span></span>
+<span class="line"><span style="color:#A6ACCD;">const arr3 =arr1.concat(arr2)</span></span>
+<span class="line"><span style="color:#A6ACCD;">console.log(arr3)  // [1,2,3,4,5,6]</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>当然，也可以使用扩展运算符更便捷的操作：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">cosnt arr1 = [1, 2, 3]</span></span>
+<span class="line"><span style="color:#A6ACCD;">const arr2 = [4, 5, 6]</span></span>
+<span class="line"><span style="color:#A6ACCD;">const arr3=[...arr1 , ...arr2 ]         </span></span>
+<span class="line"><span style="color:#A6ACCD;">console.log(arr3)//[1,2,3,4,5,6]</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>需要特别注意的是，这两种方法只有在所有元素均为原始值的前提下，新数组与源数组是相互独立的。如果源数组中存在引用值元素，那么新数组与源数组同时关联着这些引用值元素。</p><p>这是由引用值自身的特性决定的，为了保险起见，建议只对所有元素都为原始值的数组使用这两种操作。</p>`,7),t=[o];function p(l,r,i,d,_,C){return n(),s("div",null,t)}const y=a(c,[["render",p]]);export{h as __pageData,y as default};

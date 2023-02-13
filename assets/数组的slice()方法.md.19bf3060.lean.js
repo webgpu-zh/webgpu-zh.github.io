@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as e,a as n}from"./app.4a2ec065.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组的slice()方法.md"}'),t={name:"数组的slice()方法.md"},l=n("",6),o=[l];function c(r,p,i,_,d,h){return e(),a("div",null,o)}const A=s(t,[["render",c]]);export{y as __pageData,A as default};

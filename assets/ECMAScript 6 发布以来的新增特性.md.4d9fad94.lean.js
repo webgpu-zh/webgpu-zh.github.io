@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,a as r}from"./app.4a2ec065.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ECMAScript 6 发布以来的新增特性.md"}'),i={name:"ECMAScript 6 发布以来的新增特性.md"},p=r("",5),c=[p];function l(s,_,o,n,S,d){return e(),t("div",null,c)}const h=a(i,[["render",l]]);export{f as __pageData,h as default};

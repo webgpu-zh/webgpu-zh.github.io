@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.4a2ec065.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组的本质也是对象.md"}'),e={name:"数组的本质也是对象.md"},p=l("",11),o=[p];function t(c,r,i,C,d,A){return n(),a("div",null,o)}const h=s(e,[["render",t]]);export{y as __pageData,h as default};

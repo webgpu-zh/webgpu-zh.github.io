@@ -1,0 +1,5 @@
+import{_ as a,c as s,o as n,a as e}from"./app.4a2ec065.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组的拖尾逗号.md"}'),t={name:"数组的拖尾逗号.md"},o=e(`<h4 id="数组的拖尾逗号" tabindex="-1">数组的拖尾逗号 <a class="header-anchor" href="#数组的拖尾逗号" aria-hidden="true">#</a></h4><p>有些时候，我们会看到数组元素的结尾也存在一个逗号，这种逗号叫做拖尾逗号，通常是为了在频繁地增减数组元素的时候同时保证语法的正确，拖尾逗号不占用数组的长度，例如：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">// 下面两种写法的结果是一样的</span></span>
+<span class="line"><span style="color:#A6ACCD;">const arr1 = [1,2,3]</span></span>
+<span class="line"><span style="color:#A6ACCD;">const arr2 = [1,2,3,]</span></span>
+<span class="line"><span style="color:#A6ACCD;">console.log(arr1.length, arr2.length)  // 3  3</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div>`,3),l=[o];function c(p,r,_,i,d,h){return n(),s("div",null,l)}const m=a(t,[["render",c]]);export{A as __pageData,m as default};

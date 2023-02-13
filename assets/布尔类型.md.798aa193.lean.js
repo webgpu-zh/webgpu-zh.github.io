@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.4a2ec065.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"布尔类型.md"}'),e={name:"布尔类型.md"},o=l("",11),p=[o];function t(c,i,r,C,A,d){return n(),a("div",null,p)}const y=s(e,[["render",t]]);export{_ as __pageData,y as default};

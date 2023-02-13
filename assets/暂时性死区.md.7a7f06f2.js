@@ -1,0 +1,9 @@
+import{_ as a,c as s,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"暂时性死区.md"}'),l={name:"暂时性死区.md"},t=e(`<h4 id="暂时性死区" tabindex="-1">暂时性死区 <a class="header-anchor" href="#暂时性死区" aria-hidden="true">#</a></h4><p>参数是按顺序被赋值的，因此，前面的参数不可以引用后面的参数的默认值，也不能引用函数体中的成员值，这就是“暂时性死区”规则，例如：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">function  example(a=b,  b=1,c=data){</span></span>
+<span class="line"><span style="color:#A6ACCD;">    const data=1</span></span>
+<span class="line"><span style="color:#A6ACCD;">}</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>这段代码有两处错误：</p><ul><li>参数a不能引用后面的参数b的值</li><li>参数c不能引用后面的函数体成员data的值</li></ul><p>而这个例子是正确的：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">function  example(a=1 , b=a){</span></span>
+<span class="line"><span style="color:#A6ACCD;">    const data=b</span></span>
+<span class="line"><span style="color:#A6ACCD;">    console.log(data)</span></span>
+<span class="line"><span style="color:#A6ACCD;">}</span></span>
+<span class="line"><span style="color:#A6ACCD;">example()      //=&gt;1</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>其实，简单来讲，所谓<strong>暂时性死区</strong>，不过也遵循了局部作用域的声明规则。使用let和const声明的时候，声明和引用是按顺序来的，即只能先声明后引用，后面的引用前面的，反过来不可以，不存在声明提升。</p>`,8),p=[t];function o(c,i,r,d,_,C){return n(),s("div",null,p)}const u=a(l,[["render",o]]);export{h as __pageData,u as default};

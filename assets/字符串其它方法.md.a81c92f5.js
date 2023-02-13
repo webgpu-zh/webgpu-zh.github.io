@@ -1,0 +1,19 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"字符串其它方法.md"}'),t={name:"字符串其它方法.md"},l=e(`<h4 id="includes-、startwith-、endswith" tabindex="-1">includes()、startWith()、endsWith() <a class="header-anchor" href="#includes-、startwith-、endswith" aria-hidden="true">#</a></h4><p>有三种方法进行字符串的包含判断：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">let str=&#39;hello,world&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.includes(&#39;hello&#39;)  //=&gt;true，是否包含</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.startsWith(&#39;hello&#39;) //=&gt; true，是否以子字符串开始</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.endsWith(&#39;world&#39;) //=&gt;true，是否以子字符串结束</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h4 id="trim-、trimleft-、trimright" tabindex="-1">trim()、trimLeft()、trimRight() <a class="header-anchor" href="#trim-、trimleft-、trimright" aria-hidden="true">#</a></h4><p>有三种方法去除字符串的首尾空格：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">let str=&#39;    hello,world    &#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.trim() //=&gt;&#39;hello,world&#39;，去除首尾空格</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.trimLeft() //=&gt;&#39;    hello,world&#39;，只去除左边的空格</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.trimRight() //=&gt;&#39;    hello,world&#39;，只去除右边的空格</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h4 id="repeat" tabindex="-1">repeat() <a class="header-anchor" href="#repeat" aria-hidden="true">#</a></h4><p>使用repeat()方法进行字符串的重复操作</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">let str=&#39;hello&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;">str.repeat(3)  //=&gt;&#39;hellohellohello&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h4 id="padstart-、padend" tabindex="-1">padStart()、padEnd() <a class="header-anchor" href="#padstart-、padend" aria-hidden="true">#</a></h4><p>有时候需要保证字符串的长度是固定的，就需要在左右使用字符进行填充。</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">let str=&#39;hello&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;">str.padStart(10)  //=&gt; &#39;     hello&#39;，在左侧填充默认的5个空格</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.padEnd(10) //=&gt;&#39;hello     &#39;，在右侧填充5个空格</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.padStart(3) //=&gt;&#39;hello&#39;，长度足够，原样返回</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;">str.padStart(10,&#39;,&#39;) // =&gt;&#39;,,,,,hello&#39;，在左侧使用逗号填充</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div>`,12),p=[l];function r(o,i,c,d,h,C){return n(),a("div",null,p)}const g=s(t,[["render",r]]);export{_ as __pageData,g as default};

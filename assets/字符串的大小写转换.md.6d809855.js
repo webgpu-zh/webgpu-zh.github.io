@@ -1,0 +1,5 @@
+import{_ as s,c as a,o as e,a as n}from"./app.4a2ec065.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"字符串的大小写转换.md"}'),t={name:"字符串的大小写转换.md"},o=n(`<h4 id="字符串的大小写转换" tabindex="-1">字符串的大小写转换 <a class="header-anchor" href="#字符串的大小写转换" aria-hidden="true">#</a></h4><p>可以使用如下两种方法进行字符串的大小写转换</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">let str=&#39;Hello&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">	</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.toLowercase()   // =&gt;&#39;hello&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.toUpperCase()  // =&gt;&#39;HELLO&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div>`,3),l=[o];function p(c,r,_,i,d,h){return e(),a("div",null,l)}const m=s(t,[["render",p]]);export{A as __pageData,m as default};

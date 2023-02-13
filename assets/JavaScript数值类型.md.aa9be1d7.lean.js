@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a as t}from"./app.4a2ec065.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"JavaScript数值类型.md"}'),e={name:"JavaScript数值类型.md"},p=t("",3),o=[p];function c(l,i,_,r,d,m){return n(),s("div",null,o)}const A=a(e,[["render",c]]);export{u as __pageData,A as default};

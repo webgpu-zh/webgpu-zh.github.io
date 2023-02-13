@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"在数组首尾插入删除元素，有四种.md"}'),p={name:"在数组首尾插入删除元素，有四种.md"},e=l("",6),r=[e];function o(t,c,i,_,C,A){return n(),a("div",null,r)}const u=s(p,[["render",o]]);export{h as __pageData,u as default};

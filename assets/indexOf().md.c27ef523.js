@@ -1,0 +1,6 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"indexOf().md"}'),t={name:"indexOf().md"},l=e(`<h4 id="indexof" tabindex="-1">indexOf() <a class="header-anchor" href="#indexof" aria-hidden="true">#</a></h4><p>有两种方法返回字符或子字符串在字符串中的索引位置：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">let str=&#39;hello,world&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.indexOf(&#39;w&#39;)  //=&gt;6，在索引6位置处找打了就停止查找</span></span>
+<span class="line"><span style="color:#A6ACCD;">str.lastIndexOf(&#39;r&#39;) //=&gt;8，反过来找，在索引8位置处找到了就停止查找</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;">str.indexOf(&#39;wo&#39;) //=&gt;6，查找子字符串</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div>`,3),o=[l];function p(c,r,i,d,_,f){return n(),a("div",null,o)}const A=s(t,[["render",p]]);export{h as __pageData,A as default};

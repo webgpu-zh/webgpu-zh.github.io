@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a as e}from"./app.4a2ec065.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"数组的at()方法.md"}'),t={name:"数组的at()方法.md"},o=e("",7),l=[o];function p(r,c,i,d,_,C){return n(),s("div",null,l)}const h=a(t,[["render",p]]);export{y as __pageData,h as default};
