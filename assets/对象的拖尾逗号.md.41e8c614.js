@@ -1,0 +1,6 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"对象的拖尾逗号.md"}'),t={name:"对象的拖尾逗号.md"},l=e(`<h4 id="对象的拖尾逗号" tabindex="-1">对象的拖尾逗号 <a class="header-anchor" href="#对象的拖尾逗号" aria-hidden="true">#</a></h4><p>一个对象往往有多个名/值对，各个名/值对之间使用逗号隔开，需要说明的是，最后一个名/值对后面的逗号也是允许的，并不会报错：</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#A6ACCD;">const obj = {</span></span>
+<span class="line"><span style="color:#A6ACCD;">	a:1,</span></span>
+<span class="line"><span style="color:#A6ACCD;">	b:2,</span></span>
+<span class="line"><span style="color:#A6ACCD;">	c:3,</span></span>
+<span class="line"><span style="color:#A6ACCD;">}</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>这个宽松的语法特性在需要频繁复制粘贴追加的属性时非常有用，因为格式是统一的，我们不需要频繁的增减逗号。 不过，要特别说明的是，JSON的写法类似于对象，不过，JSON的写法与对象有两个最大的不同：</p><ul><li>JSON字符串中的对象的属性名必须加引号。</li><li>JSON字符串中，对象不允许使用拖尾逗号，使用会报错。</li></ul>`,5),p=[l];function o(c,i,_,r,d,C){return n(),a("div",null,p)}const u=s(t,[["render",o]]);export{h as __pageData,u as default};

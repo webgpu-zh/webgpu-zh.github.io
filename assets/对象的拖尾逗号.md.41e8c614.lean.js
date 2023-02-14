@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"对象的拖尾逗号.md"}'),t={name:"对象的拖尾逗号.md"},l=e("",5),p=[l];function o(c,i,_,r,d,C){return n(),a("div",null,p)}const u=s(t,[["render",o]]);export{h as __pageData,u as default};

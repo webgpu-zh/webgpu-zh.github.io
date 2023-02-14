@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"对象属性的读取和赋值.md"}'),o={name:"对象属性的读取和赋值.md"},l=e("",6),p=[l];function t(c,i,r,_,d,C){return n(),a("div",null,p)}const b=s(o,[["render",t]]);export{h as __pageData,b as default};

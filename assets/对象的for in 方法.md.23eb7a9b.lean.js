@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"对象的for in 方法.md"}'),o={name:"对象的for in 方法.md"},t=e("",4),p=[t];function c(l,r,i,_,d,f){return n(),a("div",null,p)}const h=s(o,[["render",c]]);export{A as __pageData,h as default};

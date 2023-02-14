@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"可选链.md"}'),o={name:"可选链.md"},c=e("",4),t=[c];function l(p,d,i,r,_,b){return n(),a("div",null,t)}const u=s(o,[["render",l]]);export{C as __pageData,u as default};

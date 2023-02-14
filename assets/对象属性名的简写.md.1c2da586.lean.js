@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.4a2ec065.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"对象属性名的简写.md"}'),l={name:"对象属性名的简写.md"},o=e("",5),p=[o];function t(c,i,r,_,C,d){return n(),a("div",null,p)}const h=s(l,[["render",t]]);export{b as __pageData,h as default};

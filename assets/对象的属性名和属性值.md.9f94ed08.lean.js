@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.4a2ec065.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"对象的属性名和属性值.md"}'),p={name:"对象的属性名和属性值.md"},e=l("",12),o=[e];function c(t,i,r,C,A,d){return n(),a("div",null,o)}const _=s(p,[["render",c]]);export{y as __pageData,_ as default};
