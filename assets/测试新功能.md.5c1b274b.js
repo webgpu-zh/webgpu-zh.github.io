@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.4a2ec065.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"测试新功能.md"}'),r={name:"测试新功能.md"};function o(s,_,c,n,p,d){return a(),t("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
