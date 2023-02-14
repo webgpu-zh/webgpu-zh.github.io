@@ -1,0 +1,1 @@
+import{_ as t,c as a,o,a as p}from"./app.4a2ec065.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[{"level":3,"title":"原型链","slug":"原型链","link":"#原型链","children":[]}],"relativePath":"原型链.md"}'),r={name:"原型链.md"},s=p("",15),e=[s];function l(n,c,i,y,_,A){return o(),a("div",null,e)}const u=t(r,[["render",l]]);export{C as __pageData,u as default};
